@@ -1,0 +1,6 @@
+ami_id = "ami-0068309e59e991f08"
+instance_type = "t2.medium"
+subnet_id = "subnet-076e7933159102a79"
+security_group_id = "sg-05ad4aa21fd78a992"
+win_username = "Administrator"
+win_password = "xxxxxxxxxxxxxxxx"

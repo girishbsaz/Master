@@ -1,0 +1,18 @@
+---
+
+- name: Ansible Config Management roles for MAF Post Deployment
+  hosts: all
+  become_method: runas
+  tasks:
+
+   - name: Install Heat for Windows Server
+     include_role:
+       name: heat
+
+   - name: Install Kaspersky for Windows server
+     include_role:
+       name: kaspersky
+
+   - name: Install Fireeye for Windows Server
+     include_role:
+       name: fireeye

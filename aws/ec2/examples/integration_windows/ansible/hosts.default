@@ -1,0 +1,9 @@
+[all]
+tf-vm ansible_host=PUBLICIP
+[all:vars]
+ansible_connection=winrm
+ansible_port=5986
+ansible_user=Administrator
+ansible_password=xxxxxxxxxxxxxxxxx
+ansible_winrm_transport=basic
+ansible_winrm_server_cert_validation=ignore

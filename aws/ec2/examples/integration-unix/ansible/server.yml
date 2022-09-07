@@ -1,0 +1,11 @@
+---
+
+- name: Ansible Config Management roles for MAF Post Deployment
+  hosts: all
+  become: true
+  tasks:
+
+   - name: Install Fireeye for Unix server
+     include_role:
+       name: fireeye
+       tasks_from: fireeye_tf_configure.yml

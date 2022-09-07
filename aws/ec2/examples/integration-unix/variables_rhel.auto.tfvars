@@ -1,0 +1,7 @@
+ami_id = "ami-xxxxx"
+instance_type = "t2.micro"
+subnet_id = "xxxxx"
+security_group_id = "sg-xxxxx"
+key_name = "RHEL-xxxxx"
+private_key_path = "RHEL-xxxx.pem"
+instance_user = "xxxxxx"
